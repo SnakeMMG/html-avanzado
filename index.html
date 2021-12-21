@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="assets/css/estilo.css" type="css" />
+        <title>Formularios</title>
+    </head>
+    <body>
+        <form>
+            <input type="text" /><!-- para ingresar texto -->
+            <input type="date" /><!-- para ingresar fecha -->
+            <input type="color" /><!-- seleciona color -->
+            <input type="password"> / <!-- para ingresar contraseñas -->
+            <input type="file" /><!-- para subir algun tipo de archivo -->
+            <input type="checkbox" /> <!-- cuadrado para habilitar opciones -->
+            <input type="radio"> <!-- circulo para habilitar opciones -->
+            <input type="submit" /> <!-- para enviar los datoy e informacion del usuario (es importante usar este atrubuto dentro de la etiqueta de formulario para que funcione bien) -->
+            <input type="button" value="enviar"> <!-- es un boton sin programar al cual le devemos de dar un valor y programarle alguna accion-->
+        </form> 
+        
+        <button>hola</button> 
+        
+        <h1>Formulario</h1>     
+            <form class="formularion">
+            <fieldset>
+                <div><label for="nombre">Nombre</label> <!-- nombre del campo que se este utilizando -->
+                                    <input
+                    class="clase_nombre"
+                    id="nombre" 
+                    type="text" 
+                    name="nombre"
+                    placeholder="Escribe tu nombre" />
+                    </div>
+                <div class="apellido">
+                    <label for="apellido">Apellido</label>
+                    <input id="apellido" 
+                    type="text" name="apellido" placeholder="Escribe tu apellido" 
+                    required /> 
+                </div>
+                
+                <div class="password">
+                    <label for="password">Contraseña
+                    </label>
+                        <input id="password" 
+                        type="password"
+                        name="password"
+                        placeholder="Escribe tu contraceña" />
+
+
+                </div>
+                <!-- <fieldset></fieldset> fieldset es opcional, se puede usar para englobar campos de un formularion -->
+            </fieldset>
+            <div class="correo">
+            <label for="correo">Correo</label>
+            <input id=correo name="correo" type="email" placeholder="Escribe tu correo">
+
+            </div>   
+            <div class="enviar">
+                    <input 
+                    type="submit" 
+                    value="enviar" />
+                </div>
+            
+
+             </form>
+             <form>
+                <fieldset>
+                    <legend>IUngresa el numero</legend>
+                <label 
+                for="nummero">Numero</label>
+                <input id="numero"
+                type="number" name="numero"
+                min="40" max="50">
+                <label for="rango">Rango</label>
+                <input id="rango" name="rango" type="range"
+                min="50"  />
+            </fieldset>
+
+      </form>
+        
+    </body>
+</html>

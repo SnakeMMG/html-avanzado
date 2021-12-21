@@ -1,0 +1,24 @@
+.marco{
+    background-color: green;
+    width: 400px;
+    
+}
+    
+.clase_nombre{
+    border: 3px solid red;
+
+}
+#email{
+    border: 3px solid red;
+    
+}
+#telefono{
+    border: 3px solid red;
+}
+.pais{
+    border: 3px solid red;
+}
+
+#tarjeta{
+    border: 3px solid red;
+}
