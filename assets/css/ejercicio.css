@@ -1,6 +1,7 @@
 .marco{
     background-color: green;
     width: 400px;
+    border: solid blue;
     
 }
     
@@ -21,4 +22,8 @@
 
 #tarjeta{
     border: 3px solid red;
+}
+.ajustar{
+    display: inline-block;
+    width: 80px;
 }
